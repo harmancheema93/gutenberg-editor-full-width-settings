@@ -12,7 +12,7 @@
 if(!function_exists('hsc_page_editor_setting_register')){
 	function hsc_page_editor_setting_register( $wp_customize ) {
 		$wp_customize->add_section( 'page_editor' , array(
-		    'title'      => __('page Editor Setting'),
+		    'title'      => __('Page Editor Setting'),
 		    'priority'   => 50,
 		) );
 		$wp_customize->add_setting(
@@ -26,7 +26,7 @@ if(!function_exists('hsc_page_editor_setting_register')){
             'label'   		=> __('Show Full Width'),
             'section' 		=> 'page_editor',
             'type'    		=> 'radio',
-			'description' 	=> __( 'Choose an option to change page Editor width.' ),
+			'description' 	=> __( 'Choose an option to change Page Editor width.' ),
 		  	'choices' 		=> array(
 			   'no' 	=> __( 'No' ),
 			   'yes' 	=> __( 'Yes' ),
