@@ -2,7 +2,7 @@
 
 /**
 	 Plugin Name: Gutenberg Editor Full Width
-	 Plugin URI: http://wordpress.org/plugins/hello-dolly/
+	 Plugin URI: https://github.com/harmancheema93/gutenberg-editor-full-width-settings
 	Description: This Plugin Provide option in customizer to change Gutenberg Editor to full width.
 	Author: Harmandeep Singh
 	Version: 1.0
